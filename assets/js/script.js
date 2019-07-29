@@ -29,7 +29,7 @@ resetBtn.addEventListener("click", function(){
 	pickedColor =guessColor();
 	colorDisplay.innerHTML= pickedColor;
 	colorDisplay.style.color = "#ededed";
-	messageDisplay.innerHTML = " ";
+	messageDisplay.innerHTML = "&nbsp";
 	for(let i=0 ; i<colors.length; i++){
 		squares[i].style.backgroundColor=colors[i];
 		squares[i].style.visibility="visible";
